@@ -1,0 +1,24 @@
+{
+  "targetDefaults": {
+    "build": {
+      "cache": true,
+      "dependsOn": [
+        "^build"
+      ],
+      "outputs": [
+        "{projectRoot}/dist"
+      ]
+    },
+    "test": {
+      "cache": true,
+      "dependsOn": []
+    },
+    "dev": {
+      "dependsOn": []
+    },
+    "start": {
+      "dependsOn": []
+    }
+  },
+  "nxCloudAccessToken": "MDBkNDVjZDItNDNjZS00MGQ2LTkzM2UtMDAyZmRmMDY2YjcyfHJlYWQtd3JpdGU="
+}
